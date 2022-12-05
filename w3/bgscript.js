@@ -10,5 +10,5 @@ function chbg(){
         i=0;
     }
     body.style.backgroundColor=colors[i];
-    txt.innerHTML="good job!";
+    txt.innerHTML="color changed";
 }
