@@ -35,7 +35,8 @@
                 if(Salary>50000){
                     sal5.push(Name);
                 }
-                if(DateOfJoining.slice(3,5)==12){
+                let [,m,]=DateOfJoining.split('-');
+                if(m==12){
                     decemp.push(Name);
                 }
                 pch.innerHTML='<br>'+"Names of the employees whose sal>50000"+'<br>'+sal5+'<br>'+'<br>'+"Names of the employee who joined in the month of December"+'<br>'+decemp;
